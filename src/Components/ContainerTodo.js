@@ -1,7 +1,25 @@
 import React, {useState} from "react";
 
-const [tdList, setTdList] = useState([{
+const [tdList, setTdLIst] = useState([{
     ID: "",
     Name: "",
-    Status: False
+    Satus: false
+}])
+
+const [todoList, setTodo] = useState([{
+    ID: "",
+    Name: "",
+    Status: true
+}])
+
+const [todoInput, setTodoInput] = useState([{
+    ID: "",
+    Name: "",
+    Status: true
+}])
+ ee
+const [tofoItem, setTodoItem] = useState([{
+    ID: "",
+    Name: "",
+    Status: false
 }])
