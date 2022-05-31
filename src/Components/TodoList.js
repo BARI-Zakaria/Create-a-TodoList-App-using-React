@@ -3,7 +3,7 @@ import TodoInput from './TodoInput';
 import TodoItem from './TodoItem';
 
 function TodoList() {
-  
+
         // ADD A  NEW TODO
 
   const [todos, setTodos] = useState([]);
